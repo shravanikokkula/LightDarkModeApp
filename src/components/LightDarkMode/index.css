@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 24px;
+}
+.card-container {
+  align-items: center;
+  border-radius: 12px;
+  padding: 24px;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 800;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.mode-button {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border-radius: 12px;
+  border: none;
+  padding: 12px;
+}
